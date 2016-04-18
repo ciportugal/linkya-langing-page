@@ -1,0 +1,76 @@
+html, body, .container{ 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    min-width: 320px;
+    overflow: hidden;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #616365;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #F5A828;
+}
+.container{
+    width: 100%;
+    background: #DE6158;
+    color: #fff;
+}
+.logo{
+    width: 308px;
+    height: 175px;
+    padding: 0px 30px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    margin: -39px 0 0 -190px;
+    background: url(logo.png) no-repeat center center;
+}
+.logo:before{
+    content: '';
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    height: 1px;
+    background: #fff!important;
+    top: 45%;
+    z-index: -1;
+}
+.work-text {
+    text-align: right;
+    margin-top: 170px;
+    font-size: 12px;
+}
+.copyright{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+.eddmi  {
+    color: #00B6EC;
+}
+.eddmi:hover  {
+    color: #F5A828;
+}
+@media screen and (max-width: 400px){
+    .logo{
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+    }
+}
